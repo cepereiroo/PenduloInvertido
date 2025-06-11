@@ -117,7 +117,8 @@ También se prestó especial atención al tamaño de la placa, tratando de mante
 
 Uno de los aspectos clave en el rendimiento del péndulo invertido es la ubicación del centro de gravedad. Es esencial que esté lo más próximo posible al suelo, ya que un centro de gravedad alto dificulta seriamente la estabilidad del sistema. Además, también es importante que el peso esté bien distribuido y centrado respecto al eje de las ruedas. Si el robot está equilibrado por diseño, se mantendrá en posición vertical incluso estando apagado, lo que facilita en gran medida el ajuste del controlador PID más adelante. 
 
-![](imagenes/Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.004.jpeg)![](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.005.png)
+![](imagenes/Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.004.jpeg)
+![](imagenes/Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.005.png)
 
 Este fue el diseño que hice en FreeCad donde monté el péndulo. 
 
