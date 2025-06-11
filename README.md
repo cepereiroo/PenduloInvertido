@@ -29,7 +29,7 @@ Es la biblioteca desarrollada para está práctica para implementar los tres tip
 
 - PID directo 
 - PID como filtro IIR 
-- PID filtro pasa ba 
+- PID filtro pasa baja
 
 Dentro de cada carpeta estarán los archivos .h y .cpp con la implementación de las clases PID 
 
