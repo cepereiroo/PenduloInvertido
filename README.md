@@ -3,7 +3,7 @@ En este repositorio se encuentra tanto la práctica 4 cómo la práctica 6 de la
 
 **PRÁCTICA 4 - PID en tiempo discreto** 
 
-Este trabajo tiene como objetivo implementar una biblioteca de controladores PID en tiempo discreto para ser utilizada en un microcontrolador ESP32, con aplicación directa en el control de un péndulo invertido. Esta biblioteca será utilizada en el desarrollo del proyecto de control descrito en el capítulo 6 del guión de prácticas. 
+Esta práctica tiene como objetivo implementar una biblioteca de controladores PID en tiempo discreto para ser utilizada en un microcontrolador ESP32, con aplicación directa en el control de un péndulo invertido. Esta biblioteca será utilizada en el desarrollo del proyecto de control descrito en el capítulo 6 del guión de prácticas. 
 
 Se desarrollarán tres variantes del controlador PID en tiempo discreto: 
 
@@ -15,7 +15,7 @@ Cada implementación está basada en los pseudocódigos del guión.
 
 Esta práctica está encapsulada en la carpeta libraries donde nos encontraremos :  
 
-` `**I2Cdev/** 
+**I2Cdev/** 
 
 Contiene archivos fuente y cabeceras que permiten la comunicación mediante el protocolo I2C. Es una biblioteca comúnmente usada para facilitar la lectura y escritura con sensores como el MPU6050 
 
