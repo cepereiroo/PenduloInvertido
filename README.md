@@ -1,5 +1,6 @@
 # PenduloInvertido_Cecilia
 En este repositorio se encuentra tanto la práctica 4 cómo la práctica 6 de la asignatura de Teoría de Control 
+Además en la carpeta DiseñoPendulo se encuentra el esquemático eléctrico, el diseño de la PCB y el modelo 3D STL del chasis para su impresión.
 
 **PRÁCTICA 4 - PID en tiempo discreto** 
 
