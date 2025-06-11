@@ -73,7 +73,7 @@ El chasis se diseñó buscando una estructura equilibrada, estable y lo más lig
 **Programación y pruebas de control PID** 
 
 Se implementó un controlador PID discreto en la ESP32, aplicando distintas versiones del algoritmo (con y sin filtro derivativo) y ajustando sus constantes. 
-1. # **Hardware**   
+# **6.1 Hardware**   
 **ESP32** 
 
 Como unidad central de procesamiento utilicé una placa ESP32, concretamente un modelo disponible en Amazon por unos 11€. Este microcontrolador se conecta al ordenador mediante USB y permite cargar el código desde el entorno de Arduino.  
@@ -106,14 +106,14 @@ Se emplearon motores DC con reductora, muy comunes en robótica educativa. Viene
 
 Para asegurar un suministro eléctrico estable, se incorporó un regulador LM7805. Este componente mantiene la tensión en 5V, protegiendo así los elementos sensibles del circuito.  
 
-2. # PCB 
+# 6.2 PCB 
 Se diseñó una placa PCB que permitiera  integrar todos los componentes del sistema de forma ordenada y funcional. El objetivo principal fue lograr un diseño limpio y claro, con un enrutado de pistas sencillo que permita identificar fácilmente las conexiones entre pines, lo cual es fundamental a la hora de soldar los componentes con precisión y sin errores. 
 
 También se prestó especial atención al tamaño de la placa, tratando de mantener unas dimensiones reducidas. Esto facilita el montaje dentro del chasis del robot y evita que el conjunto final sea demasiado voluminoso, lo que podría afectar al equilibrio o la estética del prototipo. 
 
 ![](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.003.jpeg)
 
-3. **Diseño Chasis** 
+**6.3 Diseño Chasis** 
 
 Uno de los aspectos clave en el rendimiento del péndulo invertido es la ubicación del centro de gravedad. Es esencial que esté lo más próximo posible al suelo, ya que un centro de gravedad alto dificulta seriamente la estabilidad del sistema. Además, también es importante que el peso esté bien distribuido y centrado respecto al eje de las ruedas. Si el robot está equilibrado por diseño, se mantendrá en posición vertical incluso estando apagado, lo que facilita en gran medida el ajuste del controlador PID más adelante. 
 
@@ -125,7 +125,7 @@ Le añadí agujeros para poder fijar la PCB con tornillos y también unas elevac
 
 El proceso de impresión a pesar de ser sencillo dió algún problema a la hora de imprimir por material atascado y otras complicaciones pero finalmente después de unas 5 horas se imprimió. 
 
-4. **Diseño Chasis**
+**6.4 Diseño Chasis**
 
 El proceso de montaje es bastante directo: simplemente hay que seguir el diseño de la PCB y conectar cada componente en su sitio. Los sensores se conectan tal como se planificó, sin necesidad de hacer cambios extra. 
 
