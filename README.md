@@ -46,9 +46,9 @@ Este es el sketch código principal de Arduino que integra las bibliotecas anter
 
 **PRÁCTICA 6 - Péndulo Invertido** 
 
-![imagenes/](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.001.jpeg)
+![](imagenes/Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.001.jpeg)
 
-![imagenes/](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.002.jpeg)
+![](imagenes/Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.002.jpeg)
 
 En esta memoria se documenta el desarrollo de un prototipo funcional de un sistema de control para un péndulo invertido sobre ruedas, utilizando una ESP32 como unidad de control. El objetivo principal es mantener el equilibrio del péndulo en posición vertical mediante un controlador PID. 
 
@@ -111,13 +111,13 @@ Se diseñó una placa PCB que permitiera  integrar todos los componentes del sis
 
 También se prestó especial atención al tamaño de la placa, tratando de mantener unas dimensiones reducidas. Esto facilita el montaje dentro del chasis del robot y evita que el conjunto final sea demasiado voluminoso, lo que podría afectar al equilibrio o la estética del prototipo. 
 
-![imagenes/](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.003.jpeg)
+![](imagenes/Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.003.jpeg)
 
 **6.3 Diseño Chasis** 
 
 Uno de los aspectos clave en el rendimiento del péndulo invertido es la ubicación del centro de gravedad. Es esencial que esté lo más próximo posible al suelo, ya que un centro de gravedad alto dificulta seriamente la estabilidad del sistema. Además, también es importante que el peso esté bien distribuido y centrado respecto al eje de las ruedas. Si el robot está equilibrado por diseño, se mantendrá en posición vertical incluso estando apagado, lo que facilita en gran medida el ajuste del controlador PID más adelante. 
 
-![imagenes/](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.004.jpeg)![](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.005.png)
+![](imagenes/Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.004.jpeg)![](Aspose.Words.660b7b57-2f8d-4155-9b66-0a39556e0980.005.png)
 
 Este fue el diseño que hice en FreeCad donde monté el péndulo. 
 
